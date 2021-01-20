@@ -83,8 +83,8 @@ def adding_matz
         }
      } 
 matz = programmer_hash["yukihiro_matsumoto"]
-programmer_hash["yukihiro_matsumoto"][:known_for] = "Ruby"
-programmer_hash["yukihiro_matsumoto"][:languages] = ["LISP", "C"]
+matz_known_for = [:favorite_ice_cream_flavors]
+jons_fav_ice_cream << "mint chip"
 puts programmer_hash
     
 end
