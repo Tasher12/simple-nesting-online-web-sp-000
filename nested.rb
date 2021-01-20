@@ -83,7 +83,7 @@ def adding_matz
         }
      } 
 matz = programmer_hash["yukihiro_matsumoto"]
-matz_known_for = [:favorite_ice_cream_flavors]
+matz_known_for = yukihiro_matsumoto[:known_for]
 jons_fav_ice_cream << "mint chip"
 puts programmer_hash
     
