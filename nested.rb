@@ -83,8 +83,8 @@ def adding_matz
         }
      } 
 matz = programmer_hash["yukihiro_matsumoto"]
-matz_known_for = yukihiro_matsumoto[:known_for]
-yukihiro_matsumoto << "Ruby"
+matz_known_for = yukihiro_matsumoto[:known_for] = "Ruby"
+
 puts programmer_hash
     
 end
